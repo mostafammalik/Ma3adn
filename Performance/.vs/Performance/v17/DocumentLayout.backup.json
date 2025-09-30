@@ -1,0 +1,508 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\Performance Lab\\Performance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|m:\\performance lab\\performance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|m:\\performance lab\\performance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|m:\\performance lab\\performance\\controllers\\factorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E631CBAE-0C60-4199-8D3C-CED0ADF7138D}|API_Performance.csproj|solutionrelative:controllers\\factorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C511B7E0-70F6-4BBD-95EF-89DAF89BF577}|..\\Performance.Application\\Performance.Application.csproj|m:\\performance lab\\performance.application\\service\\factoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C511B7E0-70F6-4BBD-95EF-89DAF89BF577}|..\\Performance.Application\\Performance.Application.csproj|m:\\performance lab\\performance.application\\iservices\\ifactoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\ifactoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7F834B-5AA1-EB75-030C-6E2303D95EE7}|..\\Performance.Infrastructure\\Performance.Infrastructure.csproj|m:\\performance lab\\performance.infrastructure\\repositories\\factoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7F834B-5AA1-EB75-030C-6E2303D95EE7}|..\\Performance.Infrastructure\\Performance.Infrastructure.csproj|m:\\performance lab\\performance.infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\supplierfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\customerorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\drivervehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\baseentitywithoutname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\factorymaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\isupplierfactoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\imaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\ifactorymaterialrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\idrivervehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A2EC1A-A14D-1768-BD8C-DD30080907DF}|..\\Models.Performance\\Performance.Domain.csproj|m:\\performance lab\\models.performance\\irepositories\\idriverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "M:\\Performance Lab\\Performance\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-26T21:40:44.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T21:40:27.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FactoryController.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance\\Controllers\\FactoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FactoryController.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance\\Controllers\\FactoryController.cs",
+              "RelativeToolTip": "Controllers\\FactoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T21:13:49.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FactoryRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance.Infrastructure\\Repositories\\FactoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Performance.Infrastructure\\Repositories\\FactoryRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance.Infrastructure\\Repositories\\FactoryRepository.cs",
+              "RelativeToolTip": "..\\Performance.Infrastructure\\Repositories\\FactoryRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwv0MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:09:07.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance.Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Performance.Infrastructure\\Context\\AppDbContext.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance.Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Performance.Infrastructure\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:38:39.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\BaseEntity.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:18:12.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFactoryRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IFactoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IFactoryRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IFactoryRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IFactoryRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAWwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:30.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IFactoryService.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance.Application\\IServices\\IFactoryService.cs",
+              "RelativeDocumentMoniker": "..\\Performance.Application\\IServices\\IFactoryService.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance.Application\\IServices\\IFactoryService.cs",
+              "RelativeToolTip": "..\\Performance.Application\\IServices\\IFactoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:34:10.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FactoryService.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Performance.Application\\Service\\FactoryService.cs",
+              "RelativeDocumentMoniker": "..\\Performance.Application\\Service\\FactoryService.cs",
+              "ToolTip": "M:\\Performance Lab\\Performance.Application\\Service\\FactoryService.cs",
+              "RelativeToolTip": "..\\Performance.Application\\Service\\FactoryService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:06:11.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Customer.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T18:42:31.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Factory.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Factory.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Factory.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Factory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:05:36.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupplierFactory.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\SupplierFactory.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\SupplierFactory.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\SupplierFactory.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\SupplierFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:38.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerOrder.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\CustomerOrder.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\CustomerOrder.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\CustomerOrder.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\CustomerOrder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T19:12:52.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Driver.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Driver.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:18:49.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DriverVehicle.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\DriverVehicle.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\DriverVehicle.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\DriverVehicle.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\DriverVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T18:04:20.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\AppUser.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\AppUser.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:21:19.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseEntityWithOutName.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\BaseEntityWithOutName.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\BaseEntityWithOutName.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\BaseEntityWithOutName.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\BaseEntityWithOutName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T18:23:02.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FactoryMaterial.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\FactoryMaterial.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\FactoryMaterial.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\FactoryMaterial.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\FactoryMaterial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:05.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Material.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Material.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Material.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:12.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Order.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Order.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:17.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Supplier.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Supplier.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:25.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\Models\\Vehicle.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\Models\\Vehicle.cs",
+              "RelativeToolTip": "..\\Models.Performance\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:22:44.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IVehicleRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IVehicleRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:53.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IsupplierRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IsupplierRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IsupplierRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IsupplierRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IsupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:50.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ISupplierFactoryRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\ISupplierFactoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\ISupplierFactoryRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\ISupplierFactoryRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\ISupplierFactoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:47.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\ICustomerRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:04:57.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IOrderRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:44.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IMaterialRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IMaterialRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IMaterialRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IMaterialRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IMaterialRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:39.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IFactoryMaterialRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IFactoryMaterialRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IFactoryMaterialRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IFactoryMaterialRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IFactoryMaterialRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:04:52.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IDriverVehicleRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IDriverVehicleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IDriverVehicleRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IDriverVehicleRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IDriverVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:16.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IDriverRepository.cs",
+              "DocumentMoniker": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IDriverRepository.cs",
+              "RelativeDocumentMoniker": "..\\Models.Performance\\IRepositories\\IDriverRepository.cs",
+              "ToolTip": "M:\\Performance Lab\\Models.Performance\\IRepositories\\IDriverRepository.cs",
+              "RelativeToolTip": "..\\Models.Performance\\IRepositories\\IDriverRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T17:20:06.995Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
